@@ -52,4 +52,10 @@
   li:hover {
     background: #dbdbdb;
   }
+
+  @media (pointer: none), (pointer: coarse) {
+    li {
+      padding: 1em 0.2em;
+    }
+  }
 </style>
