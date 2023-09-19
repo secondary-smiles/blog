@@ -36,4 +36,10 @@
   main {
     padding-left: 3em;
   }
+
+  @media (pointer: none), (pointer: coarse) {
+    a {
+      padding: 1em 0.2em;
+    }
+  }
 </style>
