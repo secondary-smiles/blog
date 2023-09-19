@@ -1,9 +1,10 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Asap', sans-serif;
 }
 
 pre, code, span {
   font-family: 'JetBrains Mono', monospace !important;
+  font-size: 0.9rem;
 }
 
 img {

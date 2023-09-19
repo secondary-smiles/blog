@@ -7,14 +7,14 @@
 <main>
   <div id="title">
     <h1>trinket blog</h1>
-    <h2 class="sub">dev writing about anything under the sun</h2>
   </div>
 
   <div id="articles">
     <ul>
       {#each data.articles as article, i}
         <li class={i % 2 == 0 ? "even" : "odd"}>
-          <a href="/articles/{article.slug}">{article.date} ~> {article.title}</a
+          <a href="/articles/{article.slug}"
+            >{article.date} ~> {article.title}</a
           >
         </li>
       {/each}
