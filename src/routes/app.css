@@ -1,0 +1,15 @@
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+pre, code, span {
+  font-family: 'JetBrains Mono', monospace !important;
+}
+
+img {
+  max-width: 80%;
+}
+
+.sub {
+  color: #aaa;
+}
