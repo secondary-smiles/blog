@@ -34,12 +34,16 @@
 
 <style>
   main {
-    padding-left: 3em;
+    padding-left: 1em;
   }
 
   @media (pointer: none), (pointer: coarse) {
     a {
       padding: 1em;
+    }
+
+    main {
+      padding-left: 0;
     }
   }
 </style>

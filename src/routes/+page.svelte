@@ -14,7 +14,7 @@
       {#each data.articles as article, i}
         <li class={i % 2 == 0 ? "even" : "odd"}>
           <a href="/articles/{article.slug}"
-            >{article.date} ~> {article.title}</a
+            >{article.date} ~ {article.title}</a
           >
         </li>
       {/each}
