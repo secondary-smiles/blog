@@ -1,0 +1,12 @@
+{
+  "name": "feeds",
+  "version": "1.0.0",
+  "description": "feed generator",
+  "main": "makeFeeds.ts",
+  "license": "MIT",
+  "dependencies": {
+    "firebase": "^10.7.1",
+    "jsonfeed-to-rss": "^3.0.7",
+    "markdown-it": "^14.0.0"
+  }
+}
